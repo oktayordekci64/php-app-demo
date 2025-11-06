@@ -1,0 +1,8 @@
+{
+  "name": "oktay/php-app-demo",
+  "description": "Demo PHP app to demonstrate version mismatch",
+  "require": {
+    "php": "^7.4",
+    "monolog/monolog": "^2.0"
+  }
+}
