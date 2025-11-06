@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php74-app
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www/html
